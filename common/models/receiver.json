@@ -1,0 +1,53 @@
+{
+  "name": "Receiver",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "username": {
+      "type": "string",
+      "required": true
+    },
+    "password": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "country": {
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "string",
+      "required": true
+    },
+    "number": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "gifts": {
+      "type": "hasMany",
+      "model": "Gift",
+      "foreignKey": ""
+    },
+    "gift": {
+      "type": "belongsTo",
+      "model": "Gift",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": []
+}

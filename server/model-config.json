@@ -31,5 +31,17 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "Gift": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Donor": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Receiver": {
+    "dataSource": "db",
+    "public": true
   }
 }
