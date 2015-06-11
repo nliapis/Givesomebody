@@ -30,7 +30,7 @@
   },
   "Role": {
     "dataSource": "givesomebody",
-    "public": false
+    "public": true
   },
   "Gift": {
     "dataSource": "givesomebody",

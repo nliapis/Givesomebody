@@ -4,12 +4,12 @@
     "connector": "memory"
   },
   "givesomebody": {
-    "name": "givesomebody",
-    "connector": "mongodb",
     "host": "localhost",
     "port": 27017,
     "database": "givesomebody",
     "username": "",
-    "password": ""
+    "password": "",
+    "name": "givesomebody",
+    "connector": "mongodb"
   }
 }
